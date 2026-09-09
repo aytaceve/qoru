@@ -4,4 +4,6 @@ project(qoru)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(qoru
-        main.cpp)
+        main.cpp
+        parser.cpp
+        parser.h)

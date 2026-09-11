@@ -5,5 +5,10 @@ set(CMAKE_CXX_STANDARD 23)
 
 add_executable(qoru
         main.cpp
-        parser.cpp
-        parser.h)
+        LogParser.cpp
+        LogParser.h
+        LogEntry.cpp
+        LogEntry.h
+        BanEngine.cpp
+        BanEngine.h
+)
